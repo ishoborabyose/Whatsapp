@@ -7,42 +7,36 @@
 
 import React from 'react';
 import {
-  SafeAreaView,
-  Text,
   View,
 } from 'react-native';
 
-import ChatListItem from './src/components/ChatListItem';
+import  ChatScreen from './src/screens/ChatsScreen';
+import { StyleSheet } from 'react-native';
 
 
 
-const chat = {
-  id: "1",
-  user: {
-    image:
-      "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/lukas.jpeg",
-    name: "Lukas",
-  },
-  lastMessage: {
-    text: "Oke",
-    createdAt: "07:30",
-  },
-};
 
 
 function App(): JSX.Element {
  
 
   return (
-    <SafeAreaView>
-      <View>
-      <ChatListItem chat={chat} /> 
+   
+      <View style={styles.container}>
+      <ChatScreen />
     </View>
-    </SafeAreaView>
+  
     
   );
 }
 
-
+const styles = StyleSheet.create({
+  container:{
+    flex: 1,
+    backgroundColor: "#fff",
+    justifyContent: "center",
+    paddingVertical: 50, 
+  }
+})
 
 export default App;
