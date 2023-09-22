@@ -9,24 +9,18 @@ import React from 'react';
 import {
   View,
 } from 'react-native';
-
-import  ChatScreen from './src/screens/ChatsScreen';
+//import  ChatsScreen from './src/screens/ChatsScreen';
+import ChatScreen from './src/screens/ChatScreen';
 import { StyleSheet } from 'react-native';
 
 
 
-
-
 function App(): JSX.Element {
- 
-
-  return (
-   
+return (
       <View style={styles.container}>
+      {/* <ChatsScreen /> */}
       <ChatScreen />
     </View>
-  
-    
   );
 }
 
