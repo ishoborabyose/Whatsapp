@@ -9,17 +9,16 @@ import React from 'react';
 import {
   View,
 } from 'react-native';
-//import  ChatsScreen from './src/screens/ChatsScreen';
-import ChatScreen from './src/screens/ChatScreen';
+
 import { StyleSheet } from 'react-native';
+import Navigator from './src/navigation';
 
 
 
 function App(): JSX.Element {
 return (
       <View style={styles.container}>
-      {/* <ChatsScreen /> */}
-      <ChatScreen />
+      <Navigator />
     </View>
   );
 }
@@ -27,9 +26,9 @@ return (
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "whitesmoke",
     justifyContent: "center",
-    paddingVertical: 50, 
+
   }
 })
 

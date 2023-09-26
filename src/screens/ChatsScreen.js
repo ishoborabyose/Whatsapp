@@ -4,12 +4,12 @@ import { FlatList } from "react-native";
 
 
 
-const chatScreen = () => {
+const ChatScreen = () => {
    return(
     <FlatList data={chats} 
-    renderItem={({ item }) => <ChatListItem chat={item} />} 
+    renderItem={({ item }) => <ChatListItem chat={item} />} style={{ backgroundColor: 'white' }}
     />
    )
 }
 
-export default chatScreen
+export default ChatScreen
