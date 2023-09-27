@@ -4,7 +4,8 @@
     "user": {
       "id": "u2",
       "name": "Lukas",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/lukas.jpeg"
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/lukas.jpeg",
+      "status": "Hey there!"
     },
     "lastMessage": {
       "id": "m1",
@@ -17,7 +18,8 @@
     "user": {
       "id": "u3",
       "name": "Daniil Top",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg"
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg",
+      "status": "Hey there! I am using whatsapp"
     },
     "lastMessage": {
       "id": "m2",
@@ -30,7 +32,8 @@
     "user": {
       "id": "u4",
       "name": "Alex",
-      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/8.png"
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/8.png",
+      "status": "God is good"
     },
     "lastMessage": {
       "id": "m3",
